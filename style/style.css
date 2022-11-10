@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+*{box-sizing: border-box;}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    height: 90px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+#ImgLogo{
+    height: 50px;
+}
+
+aside{
+    position: relative;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+}
+
+#menuOpenear{
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bolder;
+    color: white;
+}
+
+#menuArea{
+    display: block;
+    width: 0px;
+    /*width: 150px - 200px*/
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.768);
+    transition: all .3s linear;
+}
+
+aside #menuArea ul{
+   margin: 0px;
+   padding: 0px;
+}
+
+aside #menuArea ul >li{
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    list-style: none;
+    font-weight: bolder;
+    width: 100%;
+    cursor: pointer;
+    transition: all .2s linear ;
+}
+
+aside #menuArea ul >li:hover{
+    background-color: rgba(253, 252, 252, 0.461);
+    color: white;
+}
+
+
+
+
+#section1{
+    height: 100vh;
+    background-image: url('../imagens/showcase.webp');
+    background-color: black;
+    background-position: center center;
+    background-size: cover;
+}
+
+#showcase{
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.434);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#section1 #showcase > h2{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+#section1 #showcase  p{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 2em;
+    letter-spacing: 2px;
+}
+
+#btn{
+    width: 60%;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    transition: all 0.2s linear;
+}
+
+#btn:hover{
+    background-color: rgb(1, 168, 1);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer #imgSpotify{
+    height: 40px;
+}
+
+
+
+#footerContainerAreas{
+    display: flex;
+    flex-direction: column;
+}
+
+#footerContainerAreas .footerAreas li{
+   list-style: none;
+   font-size: 20px;
+}
+
+#footerContainerAreas .footerAreas .links{
+   display: block;
+   color: rgba(246, 242, 242, 0.289);
+   font-size: 18px;
+   text-decoration: none;
+   line-height: 2em;
+}
+
+#footerContainerAreas .footerAreas .links:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+footer #redesSociais .icone{
+    width: 50px; 
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
