@@ -16,11 +16,13 @@ body{
 }
 
 #ImgLogo1{
-    height: inherit;
+   width: 40%;
+   max-width: 100%;
 }
 
 #ImgLogo2{
-    height: 60px;
+  width: 200px;
+  height: 20%;
 }
 
 aside{

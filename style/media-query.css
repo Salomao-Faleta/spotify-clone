@@ -13,6 +13,10 @@
 
 /*PARA CELULAR*/
 @media screen and (min-width: 600px) and (max-width: 768px){
+    #ImgLogo1{
+        width: 35%;
+    }
+
     footer #redesSociais{
         display: flex;
         flex-direction: row;
@@ -22,6 +26,10 @@
 
 /*PARA TABLETS*/
 @media screen and (min-width: 769px) and (max-width: 992px){
+    #ImgLogo1{
+        width: 25%;
+    }
+
     footer #redesSociais{
         display: flex;
         flex-direction: row;
@@ -31,6 +39,10 @@
 
 /*PARA TELAS GRANDES*/
 @media screen and (min-width: 993px){
+    #ImgLogo1{
+        width: 20%;
+    }
+    
     footer #redesSociais{
         display: flex;
         flex-direction: row;
