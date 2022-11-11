@@ -17,12 +17,11 @@ body{
 
 #ImgLogo1{
    width: 40%;
-   max-width: 100%;
+  
 }
 
 #ImgLogo2{
-  width: 200px;
-  height: 20%;
+    height: 40px;
 }
 
 aside{
