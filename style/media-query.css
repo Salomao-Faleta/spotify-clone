@@ -9,3 +9,30 @@
     Descktop: 992px até 1200px
     grandes telas: acima de 1200px
 */
+
+
+/*PARA CELULAR*/
+@media screen and (min-width: 600px) and (max-width: 768px){
+    footer #redesSociais{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+/*PARA TABLETS*/
+@media screen and (min-width: 769px) and (max-width: 992px){
+    footer #redesSociais{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+/*PARA TELAS GRANDES*/
+@media screen and (min-width: 993px){
+    footer #redesSociais{
+        display: flex;
+        flex-direction: row;
+    }
+}
