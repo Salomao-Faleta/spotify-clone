@@ -17,6 +17,10 @@
         width: 35%;
     }
 
+    #ImgLogo2{
+        height: 45px;
+    }
+
     footer #redesSociais{
         display: flex;
         flex-direction: row;
@@ -30,6 +34,10 @@
         width: 25%;
     }
 
+    #ImgLogo2{
+        height: 50px;
+    }
+
     footer #redesSociais{
         display: flex;
         flex-direction: row;
@@ -41,6 +49,10 @@
 @media screen and (min-width: 993px){
     #ImgLogo1{
         width: 20%;
+    }
+
+    #ImgLogo2{
+        height: 60px;
     }
     
     footer #redesSociais{
