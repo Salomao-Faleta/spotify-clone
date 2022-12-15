@@ -24,7 +24,8 @@ body{
     height: 40px;
 }
 
-aside{
+/*MENU MOBILE*/
+#asideMobile{
     position: relative;
     top: 0;
     right: 0;
@@ -39,10 +40,9 @@ aside{
     color: white;
 }
 
-#menuArea{
+#menuAreaMobile{
     display: block;
     width: 0px;
-    /*width: 150px - 200px*/
     overflow-x: hidden;
     overflow-y: auto;
     height: 100vh;
@@ -50,12 +50,12 @@ aside{
     transition: all .3s linear;
 }
 
-aside #menuArea ul{
+#asideMobile #menuAreaMobile ul{
    margin: 0px;
    padding: 0px;
 }
 
-aside #menuArea ul >li{
+#asideMobile #menuAreaMobile ul > .liMobile{
     color: white;
     padding: 10px;
     margin: 0px;
@@ -67,13 +67,48 @@ aside #menuArea ul >li{
     transition: all .2s linear ;
 }
 
-aside #menuArea ul >li:hover{
+#asideMobile #menuAreaMobile ul > .liMobile:hover{
     background-color: rgba(253, 252, 252, 0.461);
     color: white;
 }
 
 
 
+/*MENU DESKTOP*/
+
+
+#asideDesk{
+    display: none;
+    flex-wrap: wrap;
+}
+
+#menuAreaDesk{
+    width: auto;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+}
+
+#asideDesk #menuAreaDesk > #ulDesk{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#asideDesk #menuAreaDesk #ulDesk > .liDesk{
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    list-style: none;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all .2s linear ;
+}
+
+#asideDesk #menuAreaDesk #ulDesk > .liDesk:hover{
+    background-color: rgba(253, 252, 252, 0.461);
+    color: white;
+}
 
 #section1{
     height: 100vh;
@@ -162,6 +197,7 @@ footer{
 
 #footerContainerAreas .footerAreas .links:hover{
     text-decoration: underline;
+    color: rgb(1, 168, 1);
 }
 
 footer #redesSociais{
